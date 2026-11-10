@@ -7,9 +7,20 @@ const REPO = 'JoeyMarrey29/TextureHelper-Workshop';
 const ORIGIN = 'https://texture-helper-workshop.work-855.workers.dev';
 const hash = bytes => createHash('sha256').update(bytes).digest('hex');
 const encode = value => new TextEncoder().encode(JSON.stringify(value));
+const safeFailures = new Set([
+  'Choose an editable supported draft with 1–12 textures', 'Material belongs to an incompatible attachment',
+  'Unsupported or duplicate workshop material', 'Texture dimensions do not match approved content',
+  'Unsupported attachment slot', 'Unsupported attachment selection', 'Preview must be at most 1024 pixels per side',
+  'Content exceeds its size limit', 'Missing PNG', 'Invalid PNG encoding or size', 'Invalid PNG signature',
+  'Too many PNG chunks', 'Truncated PNG', 'Truncated PNG chunk', 'PNG checksum mismatch',
+  'PNG must start with IHDR', 'Invalid PNG header', 'Workshop requires non-interlaced RGB/RGBA 8-bit PNGs up to 2048 x 2048',
+  'Noncontiguous PNG data', 'Invalid PNG end', 'Unsupported PNG chunk', 'Missing PNG end',
+  'Invalid PNG pixel length', 'Invalid PNG row filter', 'Sanitized package too large'
+]);
 
 export async function validateSubmission({id, releaseId, github, report}) {
   if (!/^[a-f0-9]{32}$/.test(id || '') || !Number.isSafeInteger(releaseId) || releaseId < 1) throw new Error('Invalid trusted dispatch');
+  let phase = 'Could not read the queued upload from storage.';
   try {
     const release = await (await github(`/releases/${releaseId}`)).json();
     if (!release.draft || release.tag_name !== `skin-${id}`) throw new Error('Submission is not an unpublished draft');
@@ -21,18 +32,20 @@ export async function validateSubmission({id, releaseId, github, report}) {
       || assets[0].size > 24 * 1024 * 1024 || !Number.isSafeInteger(assets[0].id)) throw new Error('Unexpected raw assets');
     const raw = await github(`/releases/assets/${assets[0].id}`, {headers:{Accept:'application/octet-stream'}});
     const input = JSON.parse(new TextDecoder().decode(await boundedBytes(raw.body, 24 * 1024 * 1024)));
+    phase = 'The uploaded images or skin data could not be validated. Re-export the textures as PNG and try again.';
     const prepared = await publicPackage({...input, title:metadata.title});
     const packageBytes = encode({format:'perpheads-texture-helper-skin', version:1,
       draft:{...prepared.draft, workshopSource:{id, steamId:metadata.steamId, license:'CC-BY-4.0',
         ...(metadata.parent ? {parent:metadata.parent, parentSteamId:metadata.parentSteamId} : {})}}});
     if (packageBytes.length > 24 * 1024 * 1024) throw new Error('Sanitized package too large');
+    phase = 'Could not store the validated files or confirm publication. Try again later.';
     for (const [name, bytes, type] of [['skin.phskin', packageBytes, 'application/json'], ['preview.png', prepared.preview, 'image/png']]) {
       await github(`/releases/${releaseId}/assets?name=${name}`, {method:'POST', body:bytes, upload:true, headers:{'Content-Type':type}});
     }
     await github(`/releases/assets/${assets[0].id}`, {method:'DELETE'});
     await report({id, accepted:true, model:prepared.draft.modelPath, hash:hash(packageBytes), previewHash:hash(prepared.preview)});
   } catch (error) {
-    try { await report({id, accepted:false}); }
+    try { await report({id, accepted:false, reason:safeFailures.has(error.message) ? error.message : phase}); }
     catch (reportError) { throw new AggregateError([error, reportError], 'Validation failed and server cleanup could not be confirmed'); }
     throw error;
   }
