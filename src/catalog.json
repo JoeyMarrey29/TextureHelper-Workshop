@@ -5,6 +5,11 @@
       "vtf": "materials/models/weapons/v_models/glock20/glock20color_black.vtf",
       "width": 1024
     },
+    "models/perpheads/weapons/attachments/pistol_lam.mdl|materials/models/jarheads/weapons/attachments/pistol_lam/lam.vmt": {
+      "height": 512,
+      "vtf": "materials/models/jarheads/weapons/attachments/pistol_lam/lam.vtf",
+      "width": 512
+    },
     "models/perpheads/weapons/attachments/pistol_rail.mdl|materials/models/jarheads/weapons/attachments/pistol_rail/rail_diffuse.vmt": {
       "height": 512,
       "vtf": "materials/models/jarheads/weapons/attachments/pistol_rail/rail_diffuse.vtf",
@@ -485,6 +490,11 @@
       "vtf": "materials/models/weapons/v_models/auga3/map2.vtf",
       "width": 1024
     },
+    "models/perpheads/weapons/c_c2.mdl|materials/models/jarheads/weapons/c_weapons/c2/c2detonator_text.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/c2/c2clacker_diffuse.vtf",
+      "width": 1024
+    },
     "models/perpheads/weapons/c_deagle.mdl|materials/models/weapons/v_models/deserteagle/deserteagle_1.vmt": {
       "height": 1024,
       "vtf": "materials/models/weapons/v_models/deserteagle/deserteagle_1.vtf",
@@ -498,6 +508,21 @@
     "models/perpheads/weapons/c_doublebarrel.mdl|materials/models/weapons/v_models/dbarrel/doubleba.vmt": {
       "height": 1024,
       "vtf": "materials/models/weapons/v_models/dbarrel/dif.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_ext.mdl|materials/models/weapons/v_models/ext/cone.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/weapons/v_models/ext/ext.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_ext.mdl|materials/models/weapons/v_models/ext/ext.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/weapons/v_models/ext/ext.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_ext.mdl|materials/models/weapons/v_models/ext/metal.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/weapons/v_models/ext/ext.vtf",
       "width": 1024
     },
     "models/perpheads/weapons/c_famas.mdl|materials/models/weapons/v_models/famas/backmap.vmt": {
@@ -583,6 +608,16 @@
     "models/perpheads/weapons/c_glock20.mdl|materials/models/weapons/v_models/glock20/glock20color_black.vmt": {
       "height": 1024,
       "vtf": "materials/models/weapons/v_models/glock20/glock20color_black.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_katana.mdl|materials/models/weapons/v_models/katana/handle.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/weapons/v_models/katana/katana.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_katana.mdl|materials/models/weapons/v_models/katana/metal.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/weapons/v_models/katana/katana.vtf",
       "width": 1024
     },
     "models/perpheads/weapons/c_l115a3.mdl|materials/models/weapons/v_models/l115a3/map4.vmt": {
@@ -680,6 +715,11 @@
       "vtf": "materials/models/weapons/v_models/m24/m24_parts.vtf",
       "width": 1024
     },
+    "models/perpheads/weapons/c_m26c.mdl|materials/models/jarheads/weapons/m26c/m26c.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/jarheads/weapons/m26c/m26c.vtf",
+      "width": 1024
+    },
     "models/perpheads/weapons/c_m29.mdl|materials/models/weapons/v_models/m29/sw629_maps.vmt": {
       "height": 1024,
       "vtf": "materials/models/weapons/v_models/m29/sw629_maps_wooden.vtf",
@@ -710,9 +750,29 @@
       "vtf": "materials/models/weapons/v_models/m4/diffuse.vtf",
       "width": 1024
     },
+    "models/perpheads/weapons/c_m67.mdl|materials/models/weapons/v_models/m67/m67.vmt": {
+      "height": 512,
+      "vtf": "materials/models/weapons/v_models/m67/m67.vtf",
+      "width": 512
+    },
+    "models/perpheads/weapons/c_m68.mdl|materials/models/weapons/v_models/m67/m68.vmt": {
+      "height": 512,
+      "vtf": "materials/models/weapons/v_models/m67/m68.vtf",
+      "width": 512
+    },
+    "models/perpheads/weapons/c_m69.mdl|materials/models/weapons/v_models/m67/m69.vmt": {
+      "height": 512,
+      "vtf": "materials/models/weapons/v_models/m67/m69.vtf",
+      "width": 512
+    },
     "models/perpheads/weapons/c_m82.mdl|materials/models/weapons/v_models/m82/m82.vmt": {
       "height": 512,
       "vtf": "materials/models/weapons/v_models/m82/m82.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_m84.mdl|materials/models/weapons/v_models/m84/flash_uv.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/weapons/v_models/m84/flash_uv.vtf",
       "width": 1024
     },
     "models/perpheads/weapons/c_m9.mdl|materials/models/weapons/v_models/m9/frame.vmt": {
@@ -744,6 +804,11 @@
       "height": 512,
       "vtf": "materials/models/weapons/v_models/mac11/map3_wire.vtf",
       "width": 512
+    },
+    "models/perpheads/weapons/c_machete.mdl|materials/models/weapons/v_models/gerber_gator/gerber_gator.vmt": {
+      "height": 256,
+      "vtf": "materials/models/weapons/v_models/gerber_gator/gerber_gator.vtf",
+      "width": 1024
     },
     "models/perpheads/weapons/c_makarov.mdl|materials/models/weapons/v_models/makarov/grip.vmt": {
       "height": 512,
@@ -885,6 +950,26 @@
       "vtf": "materials/models/weapons/v_models/p99/gun_silver.vtf",
       "width": 1024
     },
+    "models/perpheads/weapons/c_pineapple.mdl|materials/models/weapons/v_models/m67/m67.vmt": {
+      "height": 512,
+      "vtf": "materials/models/weapons/v_models/m67/m67.vtf",
+      "width": 512
+    },
+    "models/perpheads/weapons/c_pineapple.mdl|materials/models/weapons/v_models/pineapple/mk2.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/weapons/v_models/pineapple/mk2.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_pineapple2.mdl|materials/models/weapons/v_models/m67/m68.vmt": {
+      "height": 512,
+      "vtf": "materials/models/weapons/v_models/m67/m68.vtf",
+      "width": 512
+    },
+    "models/perpheads/weapons/c_pineapple2.mdl|materials/models/weapons/v_models/pineapple/mk2.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/weapons/v_models/pineapple/mk2.vtf",
+      "width": 1024
+    },
     "models/perpheads/weapons/c_ppk.mdl|materials/models/weapons/v_models/ppk/ppk.vmt": {
       "height": 512,
       "vtf": "materials/models/weapons/v_models/ppk/ppk.vtf",
@@ -1000,6 +1085,11 @@
       "vtf": "materials/models/weapons/v_models/sw500/saw500_diffuse.vtf",
       "width": 2048
     },
+    "models/perpheads/weapons/c_ties.mdl|materials/models/weapons/v_models/ties/ties.vmt": {
+      "height": 16,
+      "vtf": "materials/models/weapons/v_models/ties/ties.vtf",
+      "width": 16
+    },
     "models/perpheads/weapons/c_ump45.mdl|materials/models/weapons/v_models/ump45/mag.vmt": {
       "height": 1024,
       "vtf": "materials/models/weapons/v_models/ump45/mag.vtf",
@@ -1058,6 +1148,236 @@
     "models/perpheads/weapons/c_uzi.mdl|materials/models/weapons/v_models/uzi/stocketc_map.vmt": {
       "height": 512,
       "vtf": "materials/models/weapons/v_models/uzi/stocketc_map.vtf",
+      "width": 512
+    },
+    "models/perpheads/weapons/c_weapons/c_baseballbat.mdl|materials/models/jarheads/weapons/c_weapons/baseballbat/baseballbat.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/baseballbat/baseballbat.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_weapons/c_baton.mdl|materials/models/jarheads/weapons/c_weapons/baton/baton.vmt": {
+      "height": 64,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/baton/baton.vtf",
+      "width": 64
+    },
+    "models/perpheads/weapons/c_weapons/c_binoculars.mdl|materials/models/jarheads/weapons/c_weapons/binoculars/binoculars.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/binoculars/binoculars.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_weapons/c_binoculars.mdl|materials/models/jarheads/weapons/c_weapons/binoculars/lens.vmt": {
+      "height": 64,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/binoculars/lens.vtf",
+      "width": 64
+    },
+    "models/perpheads/weapons/c_weapons/c_binoculars.mdl|materials/models/jarheads/weapons/c_weapons/binoculars/steel.vmt": {
+      "height": 64,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/binoculars/steel.vtf",
+      "width": 64
+    },
+    "models/perpheads/weapons/c_weapons/c_candycane.mdl|materials/models/jarheads/weapons/c_weapons/baseballbat/candycane.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/baseballbat/candycane.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_weapons/c_confetti.mdl|materials/models/jarheads/weapons/c_weapons/confetti/cannon.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/confetti/cannon.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_weapons/c_defibrillator.mdl|materials/models/jarheads/weapons/c_weapons/defibrillator/defibrillator.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/defibrillator/defibrillator.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_weapons/c_elf.mdl|materials/models/jarheads/weapons/c_weapons/elf/elf.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/elf/elf.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_weapons/c_elf2.mdl|materials/models/jarheads/weapons/c_weapons/elf/elf2.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/elf/elf2.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_weapons/c_elf3.mdl|materials/models/jarheads/weapons/c_weapons/elf/elf_3/hands.vmt": {
+      "height": 512,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/elf/elf_3/hands.vtf",
+      "width": 512
+    },
+    "models/perpheads/weapons/c_weapons/c_elf3.mdl|materials/models/jarheads/weapons/c_weapons/elf/elf_3/jeans_1.vmt": {
+      "height": 512,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/elf/elf_3/jeans_1.vtf",
+      "width": 512
+    },
+    "models/perpheads/weapons/c_weapons/c_elf3.mdl|materials/models/jarheads/weapons/c_weapons/elf/elf_3/legs.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/elf/elf_3/legs.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_weapons/c_elf3.mdl|materials/models/jarheads/weapons/c_weapons/elf/elf_3/male_14a.vmt": {
+      "height": 512,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/elf/elf_3/male_14a.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_weapons/c_elf3.mdl|materials/models/jarheads/weapons/c_weapons/elf/elf_3/neck_14.vmt": {
+      "height": 512,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/elf/elf_3/neck_14.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_weapons/c_elf3.mdl|materials/models/jarheads/weapons/c_weapons/elf/elf_3/socks_1.vmt": {
+      "height": 512,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/elf/elf_3/socks_1.vtf",
+      "width": 512
+    },
+    "models/perpheads/weapons/c_weapons/c_elf3.mdl|materials/models/jarheads/weapons/c_weapons/elf/elf_3/wifebeater.vmt": {
+      "height": 512,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/elf/elf_3/wifebeater.vtf",
+      "width": 512
+    },
+    "models/perpheads/weapons/c_weapons/c_elf4.mdl|materials/models/jarheads/weapons/c_weapons/elf/elf_4/nose.vmt": {
+      "height": 32,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/elf/elf_4/red.vtf",
+      "width": 32
+    },
+    "models/perpheads/weapons/c_weapons/c_elf4.mdl|materials/models/jarheads/weapons/c_weapons/elf/elf_4/sweater.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/elf/elf_4/sweater.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_weapons/c_firehose.mdl|materials/models/jarheads/weapons/c_weapons/firehose/firehose.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/firehose/firehose.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_weapons/c_firehose.mdl|materials/models/jarheads/weapons/c_weapons/firehose/plastic.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/firehose/firehose.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_weapons/c_first_aid.mdl|materials/models/jarheads/weapons/c_weapons/first_aid_kit/box.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/first_aid_kit/box.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_weapons/c_first_aid.mdl|materials/models/jarheads/weapons/c_weapons/first_aid_kit/interior.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/first_aid_kit/interior.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_weapons/c_gingerbread24.mdl|materials/models/jarheads/weapons/c_weapons/gingerbread24/gingerbread.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/gingerbread24/gingerbread.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_weapons/c_hammer.mdl|materials/models/jarheads/weapons/c_weapons/hammer/handle.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/hammer/hammer.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_weapons/c_hammer.mdl|materials/models/jarheads/weapons/c_weapons/hammer/head.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/hammer/hammer.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_weapons/c_handcuffs.mdl|materials/models/jarheads/weapons/c_weapons/handcuffs/handcuffs.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/handcuffs/handcuffs.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_weapons/c_hatchet.mdl|materials/models/jarheads/weapons/c_weapons/hatchet/handle.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/hatchet/hatchet.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_weapons/c_hatchet.mdl|materials/models/jarheads/weapons/c_weapons/hatchet/head.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/hatchet/hatchet.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_weapons/c_key.mdl|materials/models/jarheads/weapons/c_weapons/key/carkey.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/key/carkey.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_weapons/c_key.mdl|materials/models/jarheads/weapons/c_weapons/key/key.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/key/key.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_weapons/c_key.mdl|materials/models/jarheads/weapons/c_weapons/key/ring.vmt": {
+      "height": 64,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/key/ring.vtf",
+      "width": 64
+    },
+    "models/perpheads/weapons/c_weapons/c_knife.mdl|materials/models/jarheads/weapons/c_weapons/knife/blade.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/knife/blade.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_weapons/c_knife.mdl|materials/models/jarheads/weapons/c_weapons/knife/handle.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/knife/handle.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_weapons/c_meat_cleaver.mdl|materials/models/jarheads/weapons/c_weapons/meat_cleaver/blade.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/meat_cleaver/meat_cleaver.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_weapons/c_meat_cleaver.mdl|materials/models/jarheads/weapons/c_weapons/meat_cleaver/handle.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/meat_cleaver/meat_cleaver.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_weapons/c_nutcracker.mdl|materials/models/jarheads/weapons/c_weapons/nutcracker/nutcracker.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/nutcracker/nutcracker.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_weapons/c_penguin.mdl|materials/models/jarheads/weapons/c_weapons/penguin/penguin.vmt": {
+      "height": 512,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/penguin/penguin_diffuse.vtf",
+      "width": 512
+    },
+    "models/perpheads/weapons/c_weapons/c_pick.mdl|materials/models/jarheads/weapons/c_weapons/pick/pick.vmt": {
+      "height": 512,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/pick/pick.vtf",
+      "width": 512
+    },
+    "models/perpheads/weapons/c_weapons/c_santa25doll.mdl|materials/models/jarheads/weapons/c_weapons/santa25doll/body.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/santa25doll/body.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_weapons/c_santa25doll.mdl|materials/models/jarheads/weapons/c_weapons/santa25doll/head.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/santa25doll/head.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_weapons/c_shovel.mdl|materials/models/jarheads/weapons/c_weapons/shovel/c_shovel.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/shovel/c_shovel.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_weapons/c_snowball.mdl|materials/models/jarheads/weapons/c_weapons/snowball/snowball.vmt": {
+      "height": 512,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/snowball/snowball.vtf",
+      "width": 512
+    },
+    "models/perpheads/weapons/c_weapons/c_ticket_book.mdl|materials/models/jarheads/weapons/c_weapons/ticket_book/paper.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/ticket_book/paper.vtf",
+      "width": 1024
+    },
+    "models/perpheads/weapons/c_weapons/c_ticket_book.mdl|materials/models/jarheads/weapons/c_weapons/ticket_book/steel.vmt": {
+      "height": 64,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/ticket_book/steel.vtf",
+      "width": 64
+    },
+    "models/perpheads/weapons/c_weapons/c_ticket_book.mdl|materials/models/jarheads/weapons/c_weapons/ticket_book/ticket_book.vmt": {
+      "height": 512,
+      "vtf": "materials/models/jarheads/weapons/c_weapons/ticket_book/ticket_book.vtf",
       "width": 512
     },
     "models/perpheads/weapons/magazines/1022_12.mdl|materials/models/weapons/v_models/p99/mag.vmt": {
@@ -1324,12 +1644,23 @@
       "height": 8,
       "vtf": "materials/models/weapons/v_models/mac11/map3_wire2.vtf",
       "width": 8
+    },
+    "models/perpheads/weapons/magazines/m26c.mdl|materials/models/jarheads/weapons/m26c/m26c.vmt": {
+      "height": 1024,
+      "vtf": "materials/models/jarheads/weapons/m26c/m26c.vtf",
+      "width": 1024
     }
   },
   "models": {
     "models/perpheads/weapons/attachments/pistol_flashlight.mdl": {
       "parts": [
         "models/perpheads/weapons/attachments/pistol_flashlight.mdl"
+      ],
+      "slots": {}
+    },
+    "models/perpheads/weapons/attachments/pistol_lam.mdl": {
+      "parts": [
+        "models/perpheads/weapons/attachments/pistol_lam.mdl"
       ],
       "slots": {}
     },
@@ -2022,6 +2353,12 @@
         ]
       }
     },
+    "models/perpheads/weapons/c_c2.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_c2.mdl"
+      ],
+      "slots": {}
+    },
     "models/perpheads/weapons/c_deagle.mdl": {
       "parts": [
         "models/perpheads/weapons/attachments/pistol_flashlight.mdl",
@@ -2058,6 +2395,12 @@
     "models/perpheads/weapons/c_doublebarrel.mdl": {
       "parts": [
         "models/perpheads/weapons/c_doublebarrel.mdl"
+      ],
+      "slots": {}
+    },
+    "models/perpheads/weapons/c_ext.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_ext.mdl"
       ],
       "slots": {}
     },
@@ -2311,6 +2654,12 @@
           "pistol_flashlight"
         ]
       }
+    },
+    "models/perpheads/weapons/c_katana.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_katana.mdl"
+      ],
+      "slots": {}
     },
     "models/perpheads/weapons/c_l115a3.mdl": {
       "parts": [
@@ -2592,6 +2941,12 @@
         ]
       }
     },
+    "models/perpheads/weapons/c_m26c.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_m26c.mdl"
+      ],
+      "slots": {}
+    },
     "models/perpheads/weapons/c_m29.mdl": {
       "parts": [
         "models/perpheads/weapons/c_m29.mdl"
@@ -2687,6 +3042,24 @@
         ]
       }
     },
+    "models/perpheads/weapons/c_m67.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_m67.mdl"
+      ],
+      "slots": {}
+    },
+    "models/perpheads/weapons/c_m68.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_m68.mdl"
+      ],
+      "slots": {}
+    },
+    "models/perpheads/weapons/c_m69.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_m69.mdl"
+      ],
+      "slots": {}
+    },
     "models/perpheads/weapons/c_m82.mdl": {
       "parts": [
         "models/perpheads/weapons/attachments/rifle_acog.mdl",
@@ -2718,6 +3091,12 @@
           "schmidt"
         ]
       }
+    },
+    "models/perpheads/weapons/c_m84.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_m84.mdl"
+      ],
+      "slots": {}
     },
     "models/perpheads/weapons/c_m9.mdl": {
       "parts": [
@@ -2791,6 +3170,12 @@
           "stock_mac11"
         ]
       }
+    },
+    "models/perpheads/weapons/c_machete.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_machete.mdl"
+      ],
+      "slots": {}
     },
     "models/perpheads/weapons/c_makarov.mdl": {
       "parts": [
@@ -3110,6 +3495,18 @@
         ]
       }
     },
+    "models/perpheads/weapons/c_pineapple.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_pineapple.mdl"
+      ],
+      "slots": {}
+    },
+    "models/perpheads/weapons/c_pineapple2.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_pineapple2.mdl"
+      ],
+      "slots": {}
+    },
     "models/perpheads/weapons/c_ppk.mdl": {
       "parts": [
         "models/perpheads/weapons/attachments/suppressor_76517.mdl",
@@ -3402,6 +3799,12 @@
       ],
       "slots": {}
     },
+    "models/perpheads/weapons/c_ties.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_ties.mdl"
+      ],
+      "slots": {}
+    },
     "models/perpheads/weapons/c_ump45.mdl": {
       "parts": [
         "models/perpheads/weapons/attachments/pistol_reflex.mdl",
@@ -3545,6 +3948,162 @@
           "stock_uzi"
         ]
       }
+    },
+    "models/perpheads/weapons/c_weapons/c_baseballbat.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_weapons/c_baseballbat.mdl"
+      ],
+      "slots": {}
+    },
+    "models/perpheads/weapons/c_weapons/c_baton.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_weapons/c_baton.mdl"
+      ],
+      "slots": {}
+    },
+    "models/perpheads/weapons/c_weapons/c_binoculars.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_weapons/c_binoculars.mdl"
+      ],
+      "slots": {}
+    },
+    "models/perpheads/weapons/c_weapons/c_candycane.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_weapons/c_candycane.mdl"
+      ],
+      "slots": {}
+    },
+    "models/perpheads/weapons/c_weapons/c_confetti.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_weapons/c_confetti.mdl"
+      ],
+      "slots": {}
+    },
+    "models/perpheads/weapons/c_weapons/c_defibrillator.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_weapons/c_defibrillator.mdl"
+      ],
+      "slots": {}
+    },
+    "models/perpheads/weapons/c_weapons/c_elf.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_weapons/c_elf.mdl"
+      ],
+      "slots": {}
+    },
+    "models/perpheads/weapons/c_weapons/c_elf2.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_weapons/c_elf2.mdl"
+      ],
+      "slots": {}
+    },
+    "models/perpheads/weapons/c_weapons/c_elf3.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_weapons/c_elf3.mdl"
+      ],
+      "slots": {}
+    },
+    "models/perpheads/weapons/c_weapons/c_elf4.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_weapons/c_elf4.mdl"
+      ],
+      "slots": {}
+    },
+    "models/perpheads/weapons/c_weapons/c_firehose.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_weapons/c_firehose.mdl"
+      ],
+      "slots": {}
+    },
+    "models/perpheads/weapons/c_weapons/c_first_aid.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_weapons/c_first_aid.mdl"
+      ],
+      "slots": {}
+    },
+    "models/perpheads/weapons/c_weapons/c_gingerbread24.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_weapons/c_gingerbread24.mdl"
+      ],
+      "slots": {}
+    },
+    "models/perpheads/weapons/c_weapons/c_hammer.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_weapons/c_hammer.mdl"
+      ],
+      "slots": {}
+    },
+    "models/perpheads/weapons/c_weapons/c_handcuffs.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_weapons/c_handcuffs.mdl"
+      ],
+      "slots": {}
+    },
+    "models/perpheads/weapons/c_weapons/c_hatchet.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_weapons/c_hatchet.mdl"
+      ],
+      "slots": {}
+    },
+    "models/perpheads/weapons/c_weapons/c_key.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_weapons/c_key.mdl"
+      ],
+      "slots": {}
+    },
+    "models/perpheads/weapons/c_weapons/c_knife.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_weapons/c_knife.mdl"
+      ],
+      "slots": {}
+    },
+    "models/perpheads/weapons/c_weapons/c_meat_cleaver.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_weapons/c_meat_cleaver.mdl"
+      ],
+      "slots": {}
+    },
+    "models/perpheads/weapons/c_weapons/c_nutcracker.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_weapons/c_nutcracker.mdl"
+      ],
+      "slots": {}
+    },
+    "models/perpheads/weapons/c_weapons/c_penguin.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_weapons/c_penguin.mdl"
+      ],
+      "slots": {}
+    },
+    "models/perpheads/weapons/c_weapons/c_pick.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_weapons/c_pick.mdl"
+      ],
+      "slots": {}
+    },
+    "models/perpheads/weapons/c_weapons/c_santa25doll.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_weapons/c_santa25doll.mdl"
+      ],
+      "slots": {}
+    },
+    "models/perpheads/weapons/c_weapons/c_shovel.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_weapons/c_shovel.mdl"
+      ],
+      "slots": {}
+    },
+    "models/perpheads/weapons/c_weapons/c_snowball.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_weapons/c_snowball.mdl"
+      ],
+      "slots": {}
+    },
+    "models/perpheads/weapons/c_weapons/c_ticket_book.mdl": {
+      "parts": [
+        "models/perpheads/weapons/c_weapons/c_ticket_book.mdl"
+      ],
+      "slots": {}
     },
     "models/perpheads/weapons/magazines/1022_12.mdl": {
       "parts": [
@@ -3771,6 +4330,12 @@
     "models/perpheads/weapons/magazines/919_8.mdl": {
       "parts": [
         "models/perpheads/weapons/magazines/919_8.mdl"
+      ],
+      "slots": {}
+    },
+    "models/perpheads/weapons/magazines/m26c.mdl": {
+      "parts": [
+        "models/perpheads/weapons/magazines/m26c.mdl"
       ],
       "slots": {}
     }
